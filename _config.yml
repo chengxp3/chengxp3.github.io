@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Jack Cheng's Blog
-subtitle: A full stack engineer's growth path
-description:
-author: Jack Cheng
+title: Cheng's Blog
+subtitle: A developer
+description: 我见青山多妩媚，料青山见我，应如是。
+author: Cheng
 language: zh-Hans
 timezone: Asia/Shanghai
 
@@ -16,6 +16,13 @@ url: http://ezplay.top
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
+
+#Search
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
 
 # Directory
 source_dir: source
@@ -34,7 +41,7 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -46,7 +53,7 @@ highlight:
 # Category & Tag
 default_category: uncategorized
 category_map:
-tag_map:
+tag_map: [tag1,tag2,tag3]
 
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
