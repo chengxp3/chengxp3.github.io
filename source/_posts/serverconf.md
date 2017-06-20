@@ -1,16 +1,15 @@
 ---
-title: 服务器常用服务 Mysql、FTP 、Nginx等环境安装（一）
+title: 服务器常用Mysql、FTP 、Nginx等环境安装（一）
 date: 2017-06-19 13:51:43
 categories: 服务器
 tags: [服务器,linux,Mysql]
 ---
 之前的阿里云试用服务器要到期了，刚好阿里云又搞活动，买了台凑合用，又要安装一整套运行环境，在这里整理下一些基础服务的安装配置。
-
+<!--more-->
 > 系统 Centos 7 64位  
 > 以下命令在root下执行：  
 
 ### Mysql
-
 
 检查 MySQL 是否已安装  
 >`rpm -qa | grep mysql`
